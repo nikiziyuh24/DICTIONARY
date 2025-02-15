@@ -33,8 +33,6 @@ dictionary = {
     "Geometry": "The study of lines, angles, shapes, and their properties.",
     "Greatest Common Factor": "The largest number common to each set of factors that divides both numbers exactly.",
 }
-
-while True:
-    word = input("\nEnter a Math term: ")
-         print(dictionary[word])
+word = input("\nEnter a Math term: ")
+print(dictionary[word])
 
