@@ -36,8 +36,5 @@ dictionary = {
 
 while True:
     word = input("\nEnter a Math term: ")
-   
-    if word in dictionary:
          print(dictionary[word])
-    else: 
-         print("That term isn't in dictionary yet.")
+
